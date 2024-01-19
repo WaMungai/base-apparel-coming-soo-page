@@ -28,7 +28,7 @@ main h1 {
 }
 main h1 span {
   color: hsl(0, 37%, 70%);
-  line-height: 1.6;
+  font-weight: 300;
 }
 main article:first-child {
   text-align: center;
@@ -99,7 +99,7 @@ form button:hover {
 }
 @media (min-width: 768px) {
   body {
-    background: url("./images/bg-pattern-desktop.svg") no-repeat/cover;
+    background: url("./images/bg-pattern-desktop.svg") no-repeat center/cover;
   }
   main {
     flex-direction: row;
